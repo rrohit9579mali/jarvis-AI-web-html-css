@@ -1,0 +1,114 @@
+:root {
+  --primary: white;
+  --secondary: #333333;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  border-radius: 50px;
+  padding: 18px;
+  font-size: medium;
+  border: none;
+  background-color: #0d6dd4;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Navbar style start */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid rgb(220, 218, 218);
+  position: relative;
+}
+
+.navbar-option-parent {
+  padding-left: 100px;
+}
+
+.navbar-option-child {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  padding-top: 18px;
+  font-size: 16px;
+  color: black;
+  padding-bottom: 20px;
+  cursor: pointer;
+  height: 128%;
+  width: 100%;
+}
+
+.navbar-option-child li:hover {
+  border-bottom: 5px solid #0056b3;
+  
+}
+
+.navbar-button {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+/* End navbar Code */
+
+/* First section */
+
+.firstsection {
+  margin-top: 20px;
+  padding-top: 70px;
+  text-align: center;
+  gap: 30px;
+  color: var(--secondary);
+}
+
+.firstsection > h1 {
+  font-size: 60px;
+  font-weight: 10px;
+  margin-top: 20px;
+}
+
+.firstsection > h1 > span {
+  color: #0056b3;
+}
+
+.firstsection > p {
+  font-size: smaller;
+}
+
+.firstsection > h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.firstsection > button {
+  margin-top: 35px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  font-size: x-large;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 30px;
+}
+
+.firstsection > button:hover {
+  background-color: #0056b3;
+  color: var(--primary);
+}
