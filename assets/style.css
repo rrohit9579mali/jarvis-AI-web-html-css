@@ -160,7 +160,7 @@ button:hover {
 
 /* Fifth section start */
 
-.fifth-section{
+.fifth-section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -170,7 +170,7 @@ button:hover {
 }
 
 .box {
-  border: 1px solid rgba(21,102,214,.18);
+  border: 1px solid rgba(21, 102, 214, 0.18);
   display: flex;
   border-radius: 10px;
   padding: 55px;
@@ -186,12 +186,65 @@ button:hover {
   margin-bottom: 5px;
 }
 
-.fifth-child-1{
+.fifth-child-1 {
   padding-left: 8%;
   padding-top: 50px;
 }
 
-.fifth-child-2{
+.fifth-child-2 {
   padding-right: 8%;
-  
+  padding-top: 30px;
+}
+
+/* Fifth section end */
+
+/* sixth section start */
+
+.sixth-section {
+  margin-top: 120px;
+  padding-top: 120px;
+  padding-left: 150px;
+  background-color: rgba(43, 112, 197, 0.04);
+}
+
+.sixth-child-1 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sixth-child-1 > h1 > span {
+  color: var(--blue);
+}
+
+.sixth-child-2 {
+  color: var(--secondary);
+  padding-top: 50px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 168%;
+}
+
+.sixth-child-3 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.sixth-child-3 > div > h1 {
+  color: var(--blue);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sixth-child-3 > div > h3 {
+  color: var(--secondary);
+  font-size: 13px;
+  padding-top: 7px;
+}
+
+#sixth-child-3-div {
+  padding-left: 13%;
 }
