@@ -219,7 +219,7 @@ button:hover {
 
 .sixth-child-2 {
   color: var(--secondary);
-  padding-top: 50px;
+  padding-top: 70px;
   font-size: 15px;
   font-weight: 400;
   line-height: 168%;
@@ -246,5 +246,54 @@ button:hover {
 }
 
 #sixth-child-3-div {
-  padding-left: 13%;
+  padding-left: 14%;
 }
+
+/* sixth section end */
+
+/* Seventh section start */
+
+.seventh-section-title{
+  color: var(--secondary);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 120px;
+  margin-bottom: 50px;
+
+}
+
+.seventh-section-title > h1 > span{
+  color: var(--blue);
+}
+.seventh-child-img{
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 45px;
+  align-items: start;
+  flex-wrap: wrap;
+ 
+}
+
+.img > img{
+  width: 110%;
+  height: 110%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.img{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.img:hover{
+  width: 20%;
+  height: 20%;
+}
+
+
+/* Seventh section end */
+
+/* Eight section start */
