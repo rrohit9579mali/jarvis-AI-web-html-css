@@ -298,35 +298,84 @@ button:hover {
 
 /* Eight section start */
 
+.Eight-section{
+  width: 100%;
+  overflow: hidden;
+ overflow-x: scroll;
+}
+
 .Eight-section > h1{
   font-size: 50px;
   font-weight: 600;
   line-height: normal;
   text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .Eight-section > p{
   font-size: 22px;
   font-weight: 500;
   text-align: center;
+  margin-bottom: 90px;
 }
 
-.Eight-section-child{
+.logopart1{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  
-  
+  width: 100%;
+  margin-left: 15px;
 }
 
 .CompanyLogo{
   border-radius: 16px;
   display: flex;
   height: 90px;
-  padding: 1px;
+  padding: 10px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   border: 1px solid var(--secondary);
+  margin: 10px;
+  width: 180px;
+  
 }
 
+.logopart2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.companylogo2{
+  border-radius: 16px;
+  display: flex;
+  height: 90px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid var(--secondary);
+  margin: 10px;
+  width: 180px;
+}
+
+.lastbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.lastbox2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+}
+
+.Eight-section-child{
+ display: flex;
+ width: 200%;
+}
