@@ -328,15 +328,39 @@ button:hover {
   overflow-x: scroll;
 }
 
+.companylogo::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.companylogo::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.companylogo::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.companylogo::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .companylogopart1{
   padding: 20px;
   margin: 0px 70px;
   width: 100%;
  
 }
-.companylogopart12{
+.companylogopart2{
   padding: 20px;
   margin-top: 20px;
+  margin-right: 30px;
+  padding-right: 40px;
 }
 
 .logopart1{
@@ -388,3 +412,54 @@ button:hover {
   margin: 0px 20px;
   margin-top: 20px;
 }
+
+/* Eight section End */
+
+/* Collaborators section start */
+
+.collaborators{
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+.collaboratorspart1{
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.collaboratorspart1 > h1{
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2px;
+  color: var(--secondary);
+}
+
+.collaboratorspart1>p{
+  font-size: 25px;
+  color: var(--secondary);
+}
+
+.collaboratorslogo{
+  border-radius: 16px;
+  display: flex;
+  height: 90px;
+  padding: 1px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.collaboratorslogo>img{
+  filter: grayscale(1);
+  margin: 0px 20px;
+}
+
+.collaboratorslogo:nth-child(2)>img{
+  margin: 0px 45px;
+}
+.collaboratorslogo>img:hover{
+  filter: grayscale(0);
+}
+
+/* Collaborators section end */
