@@ -418,7 +418,7 @@ button:hover {
 /* Collaborators section start */
 
 .collaborators{
-  margin-top: 120px;
+  margin-top: 150px;
   margin-bottom: 20px;
 }
 .collaboratorspart1{
@@ -463,3 +463,172 @@ button:hover {
 }
 
 /* Collaborators section end */
+
+/* Media section start */
+
+.media{
+  margin-top: 180px;
+}
+.mediasectionpart1>h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mediapart{
+  border-radius: 16px;
+  display: flex;
+  height: 90px;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;filter: grayscale(1);
+}
+
+.mediapart>img{
+  width: 190px;
+  margin: 0px 13px;
+}
+
+/* Media section end */
+
+/* Form section Start */
+
+.formsection{
+  width: 95%;
+  display: flex;
+  border: 1px solid  var(--blue);
+  border-radius: 16px;
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  
+}
+
+.formpart1{
+  width: 317px;
+  padding: 72px 50px;
+  background: #1566d6;
+  border-radius: 16px 0 0 16px;
+  height: 100%;
+}
+
+.callimg{
+  width: 162px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .2);
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formheading{
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2px;
+  color: white;
+}
+
+.formlines{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 154.545%;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.formpart2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 56px 30px;
+  height: 100%;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.checkbox-group label {
+  display: inline-flex;
+  align-items: center;
+  background-color: blue;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.information{
+  display: flex;
+  justify-content: space-evenly;
+}
+.input-group {
+  margin: 0px 40px;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-family: "Lato", sans-serif;
+  color: #303236;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.857%;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.input-group input{
+  width: 300px;
+  padding: 18px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: left;
+  margin-right: 25px;
+
+}
+.input-group textarea {
+  width: 100%;
+  padding: 18px ;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: left;
+  height: 100px;
+}
+
+.submit-btn {
+  width: 90%;
+  padding: 15px;
+  background-color: #1E90FF;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 42px;
+}
+
+.submit-btn:hover {
+  background-color: #1c86ee;
+}
+
+/* Form Section End */
