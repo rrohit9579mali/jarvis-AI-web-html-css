@@ -632,3 +632,20 @@ button:hover {
 }
 
 /* Form Section End */
+
+/* Map section Start */
+
+.map{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.map>iframe{
+  border-radius: 20px;
+  height: 400px;
+  width: 800px;
+}
+
+/* Map section End */
