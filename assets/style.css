@@ -570,6 +570,9 @@ button:hover {
   cursor: pointer;
   
 }
+.checkbox-group label:hover{
+  background-color: #1c86ee;
+}
 
 .checkbox-group input {
   margin-right: 10px;
@@ -640,7 +643,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .map>iframe{
   border-radius: 20px;
@@ -649,3 +652,103 @@ button:hover {
 }
 
 /* Map section End */
+
+/* Footer section start */
+
+.footer{
+  background: linear-gradient(0deg, rgba(21, 102, 214, 0.04) 0%, rgba(21, 102, 214, 0.04) 100%), #fff;
+  color: #626b7f;
+  padding-top: 64px;
+  margin-top: 50px;
+}
+.footerpart1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 35px;
+  margin-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+
+.footerpart2{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 30px;
+
+}
+
+.footeroption>h1{
+  color: var(--secondary);
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+  font-size: 18px;
+}
+.footeroption>ul>li{
+  color: var(--secondary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  margin-bottom: 14px;
+}
+
+.footeroption2>h1{
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+.footeroption2>p ,h4{
+  color: var(--secondary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  margin-bottom: 14px;
+}
+
+.footerpart3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 30px;
+  margin-top: 45px;
+}
+
+.sectionpart{
+  display: flex;
+  color: var(--secondary);
+  gap: 15px;
+}
+
+.sectionpart>h1{
+  color: var(--secondary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footerpart4{
+  padding-top: 40px ;
+  padding-bottom: 30px;
+  background: linear-gradient(0deg, rgba(21, 102, 214, 0.12) 0%, rgba(21, 102, 214, 0.12) 100%), #fff;
+  color: var(--secondary);
+  line-height: 150%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-top: 45px;
+}
+.footerpart4>h4{
+font-size: 16px;
+padding-left: 15px;
+}
+/* Footer section end */
